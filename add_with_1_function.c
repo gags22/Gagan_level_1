@@ -2,11 +2,11 @@
 #include<stdio.h>
 int main()
 {
- int a,b,c = 0;
-printf("Enter a:");
-scanf("%d",&a);
-printf("Enter b:");
-printf("%d",&b);
-c = a+b;
+ int number1,number2,c = 0;
+printf("Enter number1:");
+scanf("%d",&number1);
+printf("Enter number2:");
+printf("%d",&number2);
+c = number1+number2;
 print("sum of %d and %d is %d",a,b,c);
 return 0;
