@@ -8,5 +8,5 @@ scanf("%d",&number1);
 printf("Enter number2:");
 printf("%d",&number2);
 c = number1+number2;
-print("sum of %d and %d is %d",a,b,c);
+print("sum of %d and %d is %d",number1,number2,c);
 return 0;
