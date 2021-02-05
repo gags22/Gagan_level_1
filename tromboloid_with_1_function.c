@@ -11,4 +11,5 @@ int main()
     scanf("%f",&b);
     v = 0.333*((h*d*b)+(d/b));
     printf("Volume of tromboloid is %f",v);
+    return 0;
 }
