@@ -10,7 +10,7 @@ float get_num (void)
 }
 float add_num (float num1,float num2)
 {
-    float sum;
+    float sum = 0;
     sum = num1 + num2;
     return sum;
     
