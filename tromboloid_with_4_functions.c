@@ -3,19 +3,19 @@
 float get_num(void)
 {
     float h;
-    printf("Enter h:\n ");
+    printf("Enter the value of h:\n ");
     scanf("%f",&h);
 }
 float get_num1(void)
 {
     float d;
-    printf("Enter d:\n");
+    printf("Enter the value of d:\n");
     scanf("%f",&d);
 }
 float get_num2(void)
 {
     float b;
-    printf("enter b:\n");
+    printf("Enter the value of b:\n");
     scanf("%f",&b);
 }
 float find_volume(float h1,float d1,float b1)
