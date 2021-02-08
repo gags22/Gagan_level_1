@@ -28,4 +28,5 @@ float main()
     y = get_num();
     z = add_num(x,y);
     print_sum(x,y,z);
+    return 0;
 }
