@@ -2,21 +2,10 @@
 # include<stdio.h>
 float get_num(void)
 {
-    float h;
-    printf("Enter the value of h:\n ");
-    scanf("%f",&h);
-}
-float get_num1(void)
-{
-    float d;
-    printf("Enter the value of d:\n");
-    scanf("%f",&d);
-}
-float get_num2(void)
-{
-    float b;
-    printf("Enter the value of b:\n");
-    scanf("%f",&b);
+    float number;
+    printf("Enter value of h,d and b:\n");
+    scanf("%f",&number);
+    return number;
 }
 float find_volume(float h1,float d1,float b1)
 {
@@ -32,8 +21,8 @@ float main()
 {
     float x,y,z,v;
     x = get_num();
-    y = get_num1();
-    z = get_num2();
+    y = get_num();
+    z = get_num();
     v = find_volume(x,y,z);
     print_volume(v);
     return 0;
