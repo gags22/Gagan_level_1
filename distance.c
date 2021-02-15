@@ -1,10 +1,11 @@
 //WAP to find the distance between two point using 4 functions.
+
 # include<stdio.h>
 # include<math.h>
-float get_num(void)
+float get_num(char b)
 {
     float num;
-    printf("Enter value of x and y coordinates:\n");
+    printf("Enter value of %c:\n",b);
     scanf("%f",&num);
     return num;
 }
@@ -21,12 +22,11 @@ void print_distance(float s)
 float main()
 {
     float x,y,z,v,w;
-    x = get_num();
-    y = get_num();
-    z = get_num();
-    v = get_num();
+    x = get_num('x');
+    y = get_num('y');
+    z = get_num('x');
+    v = get_num('y');
     w = find_distance(x,y,z,v);
     print_distance(w);
     return 0;
 }
-
